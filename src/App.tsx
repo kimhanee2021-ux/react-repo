@@ -3,7 +3,6 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
-
 function App() {
   const [count, setCount] = useState(0)
 
@@ -23,7 +22,7 @@ function App() {
         </div>
         <button
           type="button"
-          className="counter"
+          className="bg-amber-500/50 rounded-full h-10 w-40 "
           onClick={() => setCount((count) => count + 1)}
         >
           Count is {count}
